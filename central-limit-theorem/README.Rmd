@@ -1,0 +1,28 @@
+---
+title: "README"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Theory
+
+Here's a video <https://www.youtube.com/watch?v=EC1bTDBz46k&t=512s> explaining more about central limit theorem.
+
+As you can see it's very important to set values for:
+- k: number of samples that you are taking
+- n: number of elements per sample
+
+## How to execute it?
+
+- Go to the "General Input Parameters" Section of the index.R script.
+- Set your k (it's better a big value).
+- Set nSizes: This vector represent the n size that will be computed for different scenarios
+- overwrite data variable with a vector of numeric values.
+
+
+## What's the result?
+
+As you can see there's a bunch of histograms as a result of execution. The idea is that you can compare normal distributions according to different n sizes and it's relation with the "data" histogram
